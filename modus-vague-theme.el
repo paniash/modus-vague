@@ -72,3 +72,16 @@
   :package-version '(modus-vague . "0.0.1")
   :type '(repeat (list symbol (choice symbol string)))
   :link '(info-link "(modus-themes) Palette overrides"))
+
+;;;###autoload
+(modus-themes-theme
+ 'modus-vague
+ 'modus-vague
+ 'dark
+ 'modus-vivendi-palette
+ 'modus-vague-palette
+ 'modus-vague-palette-overrides)
+
+(provide 'modus-vague-theme)
+
+;;; modus-vague-theme.el ends here
