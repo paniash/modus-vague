@@ -1,7 +1,6 @@
 ;;; modus-vague.el --- Emacs port of the popular vague theme -*- lexical-binding:t -*-
 
 ;; Copyright (C) 2022-2026  Free Software Foundation, Inc.
-;; Copyright (C) 2026  Ashish Panigrahi <public@ashishpanigrahi.com>
 
 ;; Author: Ashish Panigrahi <public@ashishpanigrahi.com>
 ;; Maintainer: Ashish Panigrahi <public@ashishpanigrahi.com>
