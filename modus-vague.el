@@ -67,3 +67,52 @@ if you prefer to blend Standard and Modus into a single group, enable
      modus-vague
      "The Modus vague theme."
      dark modus-vivendi-palette modus-vague-palette modus-vague-palette-overrides)))
+
+(defvar modus-vague--declared-p nil)
+
+(defun modus-vague-declare-themes ()
+  "Declare the Modus vague theme."
+  (unless modus-vague--declared-p
+    (dolist (theme modus-vague-with-properties)
+      (apply #'modus-themes-declare theme)
+      (modus-themes-register (car theme)))
+    (setq modus-vague--declared-p t)))
+
+(modus-vague-declare-themes)
+
+;;;; Limit the Modus themes to only Modus vague theme
+
+;;;###autoload
+(define-minor-mode modus-vague-take-over-modus-themes-mode
+  "When enabled, all Modus themes commands consider only Modus vague theme.
+Alternatively, use the commands `modus-vague-list-colors', `modus-vague-list-colors-current'.
+They are all designed to only consider the Modus vague theme."
+  :global t
+  :init-value nil)
+
+(cl-defmethod modus-themes-get-themes (&context (modus-vague-take-over-modus-themes-mode (eql t)))
+  "Return list of Modus vague theme, per `MODUS-VAGUE-TAKE-OVER-MODUS-THEMES-MODE'."
+  (if-let* ((themes (modus-themes-get-all-known-themes 'modus-vague))
+            (sorted-a-z (sort themes #'string-lessp))
+            (sorted-light-dark (modus-themes-sort sorted-a-z 'dark)))
+      sorted-light-dark
+    modus-vague-items))
+
+;;;; Convenience commands
+
+;;;###autoload (autoload 'modus-vague-list-colors "modus-vague")
+(modus-themes-define-derivative-command modus-vague list-colors)
+
+;;;###autoload (autoload 'modus-vague-list-colors-current "modus-vague")
+(modus-themes-define-derivative-command modus-vague list-colors-current)
+
+;;;; Add themes from this package to the `cutom-theme-load-path'
+
+;;;###autoload
+(when load-file-name
+  (let ((dir (file-name-directory load-file-name)))
+    (add-to-list 'custom-theme-load-path dir)))
+
+(provide 'modus-vague)
+
+;;; modus-vague.el ends here
