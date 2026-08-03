@@ -63,7 +63,11 @@
      (keyword blue)
      (variable magenta)
 
+     (fringe unspecified)
      (border-mode-line-active unspecified)
+     (bg-line-number-inactive unspecified)
+     (bg-line-number-active unspecified)
+     (fg-line-number-inactive fg-dim)
      (border-mode-line-inactive unspecified))))
 
 (defcustom modus-vague-palette-overrides nil
