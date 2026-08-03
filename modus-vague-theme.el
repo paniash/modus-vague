@@ -29,7 +29,9 @@
 
 (defconst modus-vague-palette
   (modus-themes-generate-palette
-   '((black "#141415")
+   '((bg-main "#141415")
+     (fg-main "#cdcdcd")
+     (black "#141415")
      (shadow "#1c1c24")
      (graphite "#252530")
      (onyx "#333738")
@@ -50,12 +52,10 @@
      (teal "#9bb4bc")
      (blue "#6e94b2")
      (iris "#7e98e8")
-     (green "#7fa563")
-
-     (bg-main black)
-     (fg-main white)
-
-     (docstring amber)
+     (green "#7fa563"))
+   nil
+   nil
+   '((docstring amber)
      (string amber)
      (constant cyan)
      (type lilac)
@@ -63,8 +63,8 @@
      (keyword blue)
      (variable magenta)
 
-     (border-mode-line-active nil)
-     (border-mode-line-inactive nil))))
+     (border-mode-line-active unspecified)
+     (border-mode-line-inactive unspecified))))
 
 (defcustom modus-vague-palette-overrides nil
   "Overrides for `modus-vague-palette'."
