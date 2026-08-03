@@ -65,3 +65,10 @@
 
      (border-mode-line-active nil)
      (border-mode-line-inactive nil))))
+
+(defcustom modus-vague-palette-overrides nil
+  "Overrides for `modus-vague-palette'."
+  :group 'modus-vague
+  :package-version '(modus-vague . "0.0.1")
+  :type '(repeat (list symbol (choice symbol string)))
+  :link '(info-link "(modus-themes) Palette overrides"))
