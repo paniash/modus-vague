@@ -77,8 +77,9 @@
 (modus-themes-theme
  'modus-vague
  'modus-vague
+ "The Modus vague theme."
  'dark
- 'modus-vivendi-palette
+ 'modus-themes-vivendi-palette
  'modus-vague-palette
  'modus-vague-palette-overrides)
 

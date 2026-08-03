@@ -66,7 +66,7 @@ if you prefer to blend Standard and Modus into a single group, enable
   '((modus-vague
      modus-vague
      "The Modus vague theme."
-     dark modus-vivendi-palette modus-vague-palette modus-vague-palette-overrides)))
+     dark modus-themes-vivendi-palette modus-vague-palette modus-vague-palette-overrides)))
 
 (defvar modus-vague--declared-p nil)
 
