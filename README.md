@@ -12,12 +12,12 @@ look like:
 ```emacs-lisp
 (use-package modus-vague
   :vc (:url "https://github.com/paniash/modus-vague"
-	    :rev :newest)
+       :rev :newest)
   :config
   (setq modus-themes-mixed-fonts t
-	modus-themes-italic-constructs t
-	modus-themes-bold-constructs t
-	modus-themes-variable-pitch-ui t))
+        modus-themes-italic-constructs t
+        modus-themes-bold-constructs t
+        modus-themes-variable-pitch-ui t))
 ```
 
 Since this theme builds on top of modus themes, one can use the same customization options that modus themes provide.
