@@ -30,7 +30,9 @@
 (defconst modus-vague-palette
   (modus-themes-generate-palette
    '((bg-main "#141415")
+     (bg-dim "#1c1c24")
      (fg-main "#cdcdcd")
+     (fg-dim "#857f8f")
      (black "#141415")
      (shadow "#1c1c24")
      (graphite "#252530")
@@ -62,6 +64,7 @@
      (warning yellow)
      (keyword blue)
      (variable magenta)
+     (comment fg-dim)
 
      (fringe unspecified)
      (border-mode-line-active unspecified)
