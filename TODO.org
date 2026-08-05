@@ -1,5 +1,6 @@
-* Package related niceties
+* Package related
 - [ ] Add screenshots.
+- [ ] Submit package to MELPA.
 
 * Theme
 - [ ] Make contrast better for org headings.
