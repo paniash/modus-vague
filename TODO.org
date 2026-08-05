@@ -3,3 +3,4 @@
 
 * Theme
 - [ ] Make contrast better for org headings.
+- [ ] Fix discrepancy between TODO item and timestamp colors.
