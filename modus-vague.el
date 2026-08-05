@@ -35,12 +35,8 @@
 ;;;; Basics for building on top of Modus
 
 (defgroup modus-vague ()
-  "Like the default Emacs themes but more consistent and customizable.
-The `standard-themes' are built on top of the `modus-themes'.  To make
-all the Modus commands that operate on a theme only consider Standard
-themes, enable the `standard-themes-take-over-modus-themes-mode'.  Or,
-if you prefer to blend Standard and Modus into a single group, enable
-`modus-themes-include-derivatives-mode'."
+  "The vague theme ported to Emacs. A cool, dark, low contrast colorscheme.
+Pastel yet vivid, like a fleeting memory..."
   :group 'faces
   :group 'modus-themes
   :link '(info-link "(modus-themes) Top")
