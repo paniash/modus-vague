@@ -32,6 +32,19 @@
    '((bg-main "#141415")
      (bg-dim "#1c1c24")
      (fg-main "#cdcdcd")
+
+     (bg-added "#233b0f")
+     (bg-added-faint "#102a00")
+     (bg-added-refine "#2f512f")
+
+     (bg-changed "#363300")
+     (bg-changed-faint "#2a1f00")
+     (bg-changed-refine "#4a4a00")
+
+     (bg-removed "#4e111f")
+     (bg-removed-faint "#380a0f")
+     (bg-removed-refine "#751a1f")
+
      (fg-dim "#857f8f")
      (black "#141415")
      (shadow "#1c1c24")
