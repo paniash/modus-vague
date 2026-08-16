@@ -36,8 +36,8 @@ Two windows showing an =org-mode= buffer and an =emacs-lisp-mode= buffer.
 * Installation
 
 The package is not available yet on MELPA but you can use the built-in
-`package-vc` to install it. With `use-package`, a default config would
-look like:
+=package-vc= to install it. With =use-package=, a default config would
+look something like this:
 
 #+begin_src emacs-lisp
   (use-package modus-vague
