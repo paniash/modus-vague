@@ -1,8 +1,8 @@
 #+title: Modus Vague theme for GNU Emacs
 #+author: Ashish Panigrahi
 
-This is the emacs port of the [vague](https://github.com/vague-theme/vague) theme
-built on top of [Modus themes](https://protesilaos.com/emacs/modus-themes).
+This is the emacs port of the [[https://github.com/vague-theme/vague][vague]] theme built on top of [[https://protesilaos.com/emacs/modus-themes][Modus
+themes]].
 
 *Note:*
 
