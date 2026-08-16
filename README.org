@@ -1,0 +1,47 @@
+#+title: Modus Vague theme for GNU Emacs
+#+author: Ashish Panigrahi
+
+This is the emacs port of the [vague](https://github.com/vague-theme/vague) theme
+built on top of [Modus themes](https://protesilaos.com/emacs/modus-themes).
+
+*Note:*
+
+Modus-vague is a work-in-progress. Since it builds up on Modus themes,
+most of the font-faces should work. If not, please open an issue on
+the issue tracker.
+
+* Screenshots
+
+*Notmuch*
+
+Two windows side by side, showing the org-mode mailing list in a
+=notmuch-search-mode= buffer and another window showing a message in
+a =notmuch-show-mode= buffer.
+
+[[./screenshots/vague-screenshot-notmuch.png]]
+
+*Org-mode* and *Elisp*
+
+Two windows showing an =org-mode= buffer and an =emacs-lisp-mode= buffer.
+
+[[./screenshots/vague-orgmode-elisp.png]]
+
+* Installation
+
+The package is not available yet on MELPA but you can use the built-in
+`package-vc` to install it. With `use-package`, a default config would
+look like:
+
+#+begin_src emacs-lisp
+  (use-package modus-vague
+    :vc (:url "https://github.com/paniash/modus-vague"
+         :rev :newest
+         :branch "main")
+    :config
+    (setq modus-themes-mixed-fonts t
+          modus-themes-italic-constructs t
+          modus-themes-bold-constructs t
+          modus-themes-variable-pitch-ui t))
+#+end_src
+
+Since this theme builds on top of modus themes, one can use the same customization options that modus themes provide.
