@@ -4,6 +4,13 @@
 This is the emacs port of the [[https://github.com/vague-theme/vague][vague]] theme built on top of [[https://protesilaos.com/emacs/modus-themes][Modus
 themes]].
 
+As described in the primary vague theme repo:
+
+#+begin_quote
+A cool, dark, low contrast colorscheme. Pastel yet vivid, like a
+fleeting memory...
+#+end_quote
+
 *Note:*
 
 modus-vague is a work-in-progress. Since it builds up on Modus themes,
