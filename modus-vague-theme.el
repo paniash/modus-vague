@@ -66,6 +66,16 @@
      (variable magenta)
      (comment fg-dim)
 
+     ;; Tab bar
+     (bg-tab-bar bg-dim)
+     (bg-tab-other bg-dim)
+
+     ;; Modeline
+     (bg-mode-line-inactive bg-dim)
+     (border-mode-line-inactive bg-dim)
+     (bg-mode-line-active bg-dim)
+     (border-mode-line-active bg-dim)
+
      (fringe unspecified)
      (border-mode-line-active unspecified)
      (bg-line-number-inactive unspecified)
