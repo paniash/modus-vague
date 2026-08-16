@@ -1,5 +1,5 @@
 * Package related
-- [ ] Add screenshots.
+- [X] Add screenshots.
 - [ ] Submit package to MELPA.
 
 * Theme
