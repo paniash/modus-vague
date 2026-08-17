@@ -25,6 +25,7 @@
 ;; along with GNU Emacs.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
+;;; This is the emacs port of the popular vague theme from neovim.
 
 ;;; Code:
 
