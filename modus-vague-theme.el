@@ -115,6 +115,6 @@
  'modus-vague-palette
  'modus-vague-palette-overrides)
 
-(provide 'modus-vague-theme)
+(provide-theme 'modus-vague)
 
 ;;; modus-vague-theme.el ends here
