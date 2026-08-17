@@ -3,6 +3,8 @@
 ;; Copyright (C) 2026 Free Software Foundation, Inc.
 
 ;; Author: Ashish Panigrahi <public@ashishpanigrahi.com>
+;; Maintainer: Ashish Panigrahi <public@ashishpanigrahi.com>
+;; URL: https://github.com/paniash/modus-vague
 ;; Keywords: faces, theme
 
 ;; This file is NOT part of GNU Emacs.
