@@ -91,6 +91,9 @@
      (bg-mode-line-active bg-dim)
      (border-mode-line-active bg-dim)
 
+     ;; Visual text
+     (fg-region unspecified)
+
      (fringe unspecified)
      (border-mode-line-active unspecified)
      (bg-line-number-inactive unspecified)
