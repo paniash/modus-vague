@@ -104,7 +104,7 @@
 (defcustom modus-vague-palette-overrides nil
   "Overrides for `modus-vague-palette'."
   :group 'modus-vague
-  :package-version '(modus-vague . "0.0.1")
+  :package-version '(modus-vague . "0.1.0")
   :type '(repeat (list symbol (choice symbol string)))
   :link '(info-link "(modus-themes) Palette overrides"))
 
