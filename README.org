@@ -51,16 +51,16 @@ Two windows showing an =org-mode= buffer and an =emacs-lisp-mode= buffer.
 
 1. Clone the git repository into a directory (say =~/.emacs.d/themes/=):
 
-   #+begin_src
-     git clone https://github.com/paniash/modus-vague ~/.emacs.d/themes/modus-vague
-   #+end_src
+#+begin_src shell
+  git clone https://github.com/paniash/modus-vague ~/.emacs.d/themes/modus-vague
+#+end_src
 
 2. Add the following to your =init.el=:
 
-   #+begin_src
-     (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/modus-vague")
-     (load-theme 'modus-vague t)
-   #+end_src
+#+begin_src emacs-lisp
+  (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/modus-vague")
+  (load-theme 'modus-vague t)
+#+end_src
 
 
 Since this theme builds on top of modus themes, one can use the same customization options that modus themes provide.
