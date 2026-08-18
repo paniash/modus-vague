@@ -67,6 +67,7 @@ Since this theme builds on top of modus themes, one can use the same customizati
 * Contributing
 
 Contributions are always welcome! Please specify if you've used LLMs
-and to which degree, as depending on the usage the PR can be rejected.
+and to what degree.
+
 Any issues or PRs submitted should be the author's responsibility and
 not purely vibecoded without understanding the code.
