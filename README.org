@@ -36,7 +36,7 @@ Two windows showing an =org-mode= buffer and an =emacs-lisp-mode= buffer.
 
 * Installation
 
-** Using package-vc
+** With =use-package=
 
 #+begin_src emacs-lisp
   (use-package modus-vague
