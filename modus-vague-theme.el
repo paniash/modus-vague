@@ -109,6 +109,10 @@
      (date-scheduled-subtle teal)
      (date-event iris)
 
+     ;; Headings (in orgmode for example)
+     (fg-heading-0 peach)
+     (fg-heading-1 amber)
+
      (fringe unspecified)
      (border-mode-line-active unspecified)
      (bg-line-number-inactive unspecified)
