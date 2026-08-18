@@ -20,19 +20,17 @@ the issue tracker.
 
 * Screenshots
 
+*Elisp*
+
+[[./screenshots/vague-elisp.png]]
+
+*Org-mode*
+
+[[./screenshots/vague-orgmode.png]]
+
 *Notmuch*
 
-Two windows side by side, showing the org-mode mailing list in a
-=notmuch-search-mode= buffer and another window showing a message in
-a =notmuch-show-mode= buffer.
-
-[[./screenshots/vague-screenshot-notmuch.png]]
-
-*Org-mode* and *Elisp*
-
-Two windows showing an =org-mode= buffer and an =emacs-lisp-mode= buffer.
-
-[[./screenshots/vague-orgmode-elisp.png]]
+[[./screenshots/vague-notmuch-search.png]]
 
 * Installation
 
