@@ -104,6 +104,11 @@
      (mail-subject magenta)
      (mail-other iris)
 
+     ;; Org-agenda
+     (date-scheduled gold)
+     (date-scheduled-subtle teal)
+     (date-event iris)
+
      (fringe unspecified)
      (border-mode-line-active unspecified)
      (bg-line-number-inactive unspecified)
