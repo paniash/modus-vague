@@ -1,7 +1,0 @@
-* Package related
-- [X] Add screenshots.
-- [ ] Submit package to MELPA.
-
-* Theme
-- [ ] Make contrast better for org headings.
-- [ ] Fix discrepancy between TODO item and timestamp colors.
