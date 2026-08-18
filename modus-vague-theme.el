@@ -94,6 +94,16 @@
      ;; Visual text
      (fg-region unspecified)
 
+     ;; Mail (GNUS, mu4e, notmuch)
+     (mail-cite-0 yellow)
+     (mail-cite-1 aqua)
+     (mail-cite-2 green)
+     (mail-cite-3 fg-dim)
+     (mail-part cyan)
+     (mail-recipient teal)
+     (mail-subject magenta)
+     (mail-other iris)
+
      (fringe unspecified)
      (border-mode-line-active unspecified)
      (bg-line-number-inactive unspecified)
