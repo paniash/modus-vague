@@ -14,7 +14,7 @@ fleeting memory...
 
 *Note:*
 
-modus-vague is a work-in-progress. Since it builds up on Modus themes,
+Modus-vague is a work-in-progress. Since it builds up on Modus themes,
 most of the font-faces should work. If not, please open an issue on
 the issue tracker.
 
