@@ -71,3 +71,7 @@ and to what degree.
 
 Any issues or PRs submitted should be the author's responsibility and
 not purely vibecoded without understanding the code.
+
+* License
+
+GNU General Public License v3.0. See [[./COPYING][COPYING]] for details.
