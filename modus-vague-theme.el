@@ -113,6 +113,8 @@
      (fg-heading-0 peach)
      (fg-heading-1 amber)
 
+     (date-common teal)
+
      (fringe unspecified)
      (border-mode-line-active unspecified)
      (bg-line-number-inactive unspecified)
