@@ -1,5 +1,3 @@
 ;;; Directory Local Variables
 
-((emacs-lisp-mode
-  (show-trailing-whitespace . t)
-  (indent-tabs-mode . nil)))
+((emacs-lisp-mode . (indent-tabs-mode . nil)))
