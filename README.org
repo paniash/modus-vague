@@ -36,7 +36,7 @@ work. If not, please open an issue on the issue tracker.
 
 * Installation
 
-** With =use-package=
+** With =use-package= and =package.el=
 
 #+begin_src emacs-lisp
   (use-package modus-vague
@@ -47,6 +47,17 @@ work. If not, please open an issue on the issue tracker.
     (modus-themes-load-theme 'modus-vague))
 #+end_src
 
+
+** With =use-package= and =straight.el=
+
+#+begin_src emacs-lisp
+  (use-package modus-vague
+    :straight (modus-vague :host github
+                           :repo "paniash/modus-vague"
+                           :branch "main")
+    :config
+    (modus-themes-load-theme 'modus-vague))
+#+end_src
 
 ** Manual Installation
 
