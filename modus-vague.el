@@ -1,7 +1,8 @@
 ;;; modus-vague.el --- Emacs port of the popular vague theme -*- lexical-binding:t -*-
 
-;; Copyright (C) 2022-2026  Free Software Foundation, Inc.
+;; Copyright (c) 2026 Ashish Panigrahi
 
+;; Title: Modus Vague
 ;; Author: Ashish Panigrahi <public@ashishpanigrahi.com>
 ;; Maintainer: Ashish Panigrahi <public@ashishpanigrahi.com>
 ;; URL: https://github.com/paniash/modus-vague
@@ -25,7 +26,7 @@
 ;; along with GNU Emacs.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-;;; This is the emacs port of the popular vague theme from neovim.
+;; This is the Emacs port of the popular vague theme from neovim.
 
 ;;; Code:
 
