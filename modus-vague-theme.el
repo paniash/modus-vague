@@ -122,6 +122,11 @@
      (fg-line-number-inactive fg-dim)
      (border-mode-line-inactive unspecified))))
 
+(defconst modus-vague-custom-faces
+  '(
+    `(git-commit-summary ((,c :inherit bold :foreground ,iris))))
+  "Custom faces overriding the default faces of Modus themes.")
+
 (defcustom modus-vague-palette-overrides nil
   "Overrides for `modus-vague-palette'."
   :group 'modus-vague
@@ -137,7 +142,8 @@
  'dark
  'modus-themes-vivendi-palette
  'modus-vague-palette
- 'modus-vague-palette-overrides)
+ 'modus-vague-palette-overrides
+ 'modus-vague-custom-faces)
 
 (provide-theme 'modus-vague)
 
