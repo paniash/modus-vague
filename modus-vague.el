@@ -27,6 +27,8 @@
 
 ;;; Commentary:
 ;; This is the Emacs port of the popular vague theme from neovim.
+;; It is built on top of Modus themes, thus providing excellent
+;; support for most major and minor modes.
 
 ;;; Code:
 
