@@ -23,7 +23,7 @@
 ;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-;;; This is the emacs port of the popular vague theme from neovim.
+;;; This is the Emacs port of the popular vague theme from neovim.
 
 ;;; Code:
 
