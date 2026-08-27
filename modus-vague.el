@@ -45,6 +45,7 @@ fleeting memory..."
   :group 'faces
   :group 'modus-themes
   :link '(info-link "(modus-themes) Top")
+  :link '(url-link "https://github.com/vague-theme/vague")
   :prefix "modus-vague-"
   :tag "Modus Vague Theme")
 
