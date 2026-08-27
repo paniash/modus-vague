@@ -1,8 +1,7 @@
 ;;; modus-vague.el --- Emacs port of the popular vague theme -*- lexical-binding:t -*-
 
-;; Copyright (c) 2026 Ashish Panigrahi
+;; Copyright (C) 2026 Free Software Foundation, Inc.
 
-;; Title: Modus Vague
 ;; Author: Ashish Panigrahi <public@ashishpanigrahi.com>
 ;; Maintainer: Ashish Panigrahi <public@ashishpanigrahi.com>
 ;; URL: https://github.com/paniash/modus-vague
