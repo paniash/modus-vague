@@ -39,8 +39,9 @@
 ;;;; Basics for building on top of Modus
 
 (defgroup modus-vague ()
-  "The vague theme ported to Emacs. A cool, dark, low contrast colorscheme.
-Pastel yet vivid, like a fleeting memory..."
+  "The vague theme ported to Emacs.
+A cool, dark, low contrast colorscheme. Pastel yet vivid, like a
+fleeting memory..."
   :group 'faces
   :group 'modus-themes
   :link '(info-link "(modus-themes) Top")
@@ -84,9 +85,9 @@ Pastel yet vivid, like a fleeting memory..."
 
 ;;;###autoload
 (define-minor-mode modus-vague-take-over-modus-themes-mode
-  "When enabled, all Modus themes commands consider only Modus vague
-theme. Alternatively, use the commands `modus-vague-list-colors',
-`modus-vague-list-colors-current'. They are all designed to only
+  "When enabled, Modus themes commands consider only Modus vague theme.
+Alternatively, use the commands `modus-vague-list-colors',
+`modus-vague-list-colors-current'.  They are all designed to only
 consider the Modus vague theme."
   :global t
   :init-value nil)
