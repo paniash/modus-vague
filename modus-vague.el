@@ -90,8 +90,7 @@ fleeting memory..."
 Alternatively, use the commands `modus-vague-list-colors',
 `modus-vague-list-colors-current'.  They are all designed to only
 consider the Modus vague theme."
-  :global t
-  :init-value nil)
+  :global t)
 
 (cl-defmethod modus-themes-get-themes (&context (modus-vague-take-over-modus-themes-mode (eql t)))
   "Return list of Modus vague theme, per `MODUS-VAGUE-TAKE-OVER-MODUS-THEMES-MODE'."
