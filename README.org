@@ -88,3 +88,11 @@ not purely vibecoded without understanding the code.
 * License
 
 GNU General Public License v3.0. See [[./COPYING][COPYING]] for details.
+
+* Acknowledgements
+
+Modus vague was written by [[https://ashishpanigrahi.com][Ashish Panigrahi]].
+
+This package is possible, thanks to the contribution of [[https://protesilaos.com][Protesilaos]]
+and his hardwork on [[https://protesilaos.com/emacs/modus-themes][Modus themes]]. Thanks to the folks who've developed
+the [[https://github.com/vague-theme/vague][Vague palette]] for an excellent theme!
