@@ -118,6 +118,10 @@
 
      (date-common magenta)
 
+     ;; Isearch
+     (bg-search-current storm)
+     (fg-search-current cyan)
+
      (fringe unspecified)
      (border-mode-line-active unspecified)
      (bg-line-number-inactive unspecified)
