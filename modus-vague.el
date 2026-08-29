@@ -53,34 +53,9 @@ fleeting memory..."
   '(modus-vague)
   "List of symbols with the Modus vague theme.")
 
-(defvaralias 'modus-vague-collection 'modus-vague-items
-  "Alias of `modus-vague-items'.")
-
 (defconst modus-vague-items
   (append modus-vague-themes)
   "Symbols of the Modus vague theme.")
-
-(defconst modus-vague-common-palette-mappings
-  modus-themes-common-palette-mappings
-  "Common palette mappings for the Modus vague theme.")
-
-(defconst modus-vague-with-properties
-  '((modus-vague
-     modus-vague
-     "The Modus vague theme."
-     dark modus-themes-vivendi-palette modus-vague-palette modus-vague-palette-overrides)))
-
-(defvar modus-vague--declared-p nil)
-
-(defun modus-vague-declare-themes ()
-  "Declare the Modus vague theme."
-  (unless modus-vague--declared-p
-    (dolist (theme modus-vague-with-properties)
-      (apply #'modus-themes-declare theme)
-      (modus-themes-register (car theme)))
-    (setq modus-vague--declared-p t)))
-
-(modus-vague-declare-themes)
 
 ;;;; Limit the Modus themes to only Modus vague theme
 
