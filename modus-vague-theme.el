@@ -32,6 +32,13 @@
 
 (require 'modus-vague)
 
+(defcustom modus-vague-palette-overrides nil
+  "Overrides for `modus-vague-palette'."
+  :group 'modus-vague
+  :package-version '(modus-vague . "0.1.7")
+  :type '(repeat (list symbol (choice symbol string)))
+  :link '(info-link "(modus-themes) Palette overrides"))
+
 (defconst modus-vague-palette
   (modus-themes-generate-palette
    '((bg-main "#141415")
@@ -136,13 +143,6 @@
   '(
     `(git-commit-summary ((,c :inherit bold :foreground ,iris))))
   "Custom faces overriding the default faces of Modus themes.")
-
-(defcustom modus-vague-palette-overrides nil
-  "Overrides for `modus-vague-palette'."
-  :group 'modus-vague
-  :package-version '(modus-vague . "0.1.5")
-  :type '(repeat (list symbol (choice symbol string)))
-  :link '(info-link "(modus-themes) Palette overrides"))
 
 ;;;###autoload
 (modus-themes-theme
