@@ -108,7 +108,7 @@ consider the Modus vague theme."
 ;;;###autoload (autoload 'modus-vague-list-colors-current "modus-vague")
 (modus-themes-define-derivative-command modus-vague list-colors-current)
 
-;;;; Add themes from this package to the `cutom-theme-load-path'
+;;;; Add themes from this package to the `custom-theme-load-path'
 
 ;;;###autoload
 (when load-file-name
