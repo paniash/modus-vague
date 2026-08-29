@@ -122,6 +122,9 @@
      (bg-search-current storm)
      (fg-search-current cyan)
 
+     ;; Code
+     (variable-use iris)
+
      (fringe unspecified)
      (border-mode-line-active unspecified)
      (bg-line-number-inactive unspecified)
