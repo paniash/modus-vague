@@ -122,6 +122,7 @@
      ;; Headings (in orgmode for example)
      (fg-heading-0 peach)
      (fg-heading-1 amber)
+     (fg-heading-5 lavender)
 
      (date-common magenta)
 
