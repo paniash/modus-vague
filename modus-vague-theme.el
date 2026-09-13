@@ -142,7 +142,8 @@
 
 (defconst modus-vague-custom-faces
   '(
-    `(git-commit-summary ((,c :inherit bold :foreground ,iris))))
+    `(git-commit-summary ((,c :inherit bold :foreground ,iris)))
+    `(tab-bar-tab-inactive ((,c :foreground ,gray))))
   "Custom faces overriding the default faces of Modus themes.")
 
 ;;;###autoload
