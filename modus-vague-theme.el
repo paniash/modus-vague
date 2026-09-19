@@ -145,7 +145,8 @@
     `(git-commit-summary ((,c :inherit bold :foreground ,iris)))
     `(tab-bar-tab-inactive ((,c :foreground ,gray)))
     `(font-lock-type-face ((,c :weight normal :foreground ,green)))
-    `(font-lock-variable-name-face ((,c :foreground ,peach))))
+    `(font-lock-variable-name-face ((,c :foreground ,peach)))
+    `(org-scheduled-previously ((,c :foreground ,peach))))
   "Custom faces overriding the default faces of Modus themes.")
 
 ;;;###autoload
