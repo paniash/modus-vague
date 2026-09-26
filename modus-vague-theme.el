@@ -150,7 +150,6 @@
     `(org-scheduled-previously ((,c :foreground ,peach))))
   "Custom faces overriding the default faces of Modus themes.")
 
-;;;###autoload
 (modus-themes-theme
  'modus-vague
  'modus-vague
