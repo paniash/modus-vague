@@ -98,3 +98,5 @@ the [[https://github.com/vague-theme/vague][Vague palette]] for an excellent the
 
 Special mention to [[https://tusharhero.codeberg.page/][Tushar's]] [[https://codeberg.org/tusharhero/modus-gotham][Modus Gotham]] theme which served as an
 inspiration to write this package.
+
+Thanks to [[https://github.com/vimjeremy][vimjeremy]] and [[https://github.com/HeitorAugustoLN][Heitor Augusto]] for their contributions to the theme.
