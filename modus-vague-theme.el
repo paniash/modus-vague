@@ -134,6 +134,9 @@
      ;; Code
      (variable-use iris)
 
+     ;; Line numbers
+     (fg-line-number-inactive muted)
+
      (fringe unspecified)
      (border-mode-line-active unspecified)
      (bg-line-number-inactive unspecified)
