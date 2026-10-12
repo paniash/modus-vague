@@ -151,6 +151,7 @@
     `(font-lock-type-face ((,c :weight normal :foreground ,green)))
     `(font-lock-function-name-face ((,c :foreground ,peach)))
     `(compilation-info ((,c :weight bold :foreground ,gold)))
+    `(elfeed-show-title-face ((,c :weight bold :foreground ,peach)))
     `(org-scheduled-previously ((,c :foreground ,peach))))
   "Custom faces overriding the default faces of Modus themes.")
 
