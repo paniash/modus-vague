@@ -5,8 +5,8 @@
 ;; Author: Ashish Panigrahi <public@ashishpanigrahi.com>
 ;; Maintainer: Ashish Panigrahi <public@ashishpanigrahi.com>
 ;; URL: https://github.com/paniash/modus-vague
-;; Version: 0.2.0
-;; Package-Requires: ((emacs "28.1") (modus-themes "5.2.0"))
+;; Version: 0.2.1
+;; Package-Requires: ((emacs "30.1") (modus-themes "5.3.0"))
 ;; Keywords: faces, theme
 
 ;; This file is NOT part of GNU Emacs.
