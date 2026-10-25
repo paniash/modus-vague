@@ -29,3 +29,7 @@
 ;; support for most major and minor modes.
 
 ;;; Code:
+
+(require 'ert)
+(require 'modus-themes)
+(require 'modus-vague)
