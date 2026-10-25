@@ -82,7 +82,7 @@
      (green "#7fa563"))
    nil
    nil
-   '((docstring amber)
+   '((docstring green)
      (string amber)
      (constant cyan)
      (type lilac)
