@@ -82,14 +82,18 @@
      (green "#7fa563"))
    nil
    nil
-   '((docstring aqua)
+   '(;; Code
+     (docstring lavender)
      (string amber)
      (constant cyan)
-     (type lilac)
+     (type green)
      (warning yellow)
      (keyword blue)
-     (variable magenta)
+     (variable teal)
      (comment fg-dim)
+     (fnname peach)
+     (fnname-call magenta)
+     (variable-use iris)
 
      ;; Tab bar
      (bg-tab-bar bg-dim)
@@ -131,9 +135,6 @@
      (bg-search-current storm)
      (fg-search-current cyan)
 
-     ;; Code
-     (variable-use iris)
-
      ;; Line numbers
      (fg-line-number-inactive muted)
 
@@ -148,8 +149,6 @@
   '(
     `(git-commit-summary ((,c :inherit bold :foreground ,iris)))
     `(tab-bar-tab-inactive ((,c :foreground ,gray)))
-    `(font-lock-type-face ((,c :weight normal :foreground ,green)))
-    `(font-lock-function-name-face ((,c :foreground ,peach)))
     `(compilation-info ((,c :weight bold :foreground ,gold)))
     `(elfeed-show-title-face ((,c :weight bold :foreground ,peach)))
     `(org-scheduled-previously ((,c :foreground ,peach))))
