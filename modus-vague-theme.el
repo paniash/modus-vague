@@ -83,17 +83,17 @@
    nil
    nil
    '(;; Code
-     (docstring lavender)
+     (docstring teal)
      (string amber)
      (constant cyan)
      (type green)
      (warning yellow)
      (keyword blue)
-     (variable teal)
+     (variable iris)
      (comment fg-dim)
      (fnname peach)
      (fnname-call magenta)
-     (variable-use iris)
+     (variable-use lavender)
 
      ;; Tab bar
      (bg-tab-bar bg-dim)
