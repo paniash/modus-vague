@@ -85,8 +85,9 @@
    '(;; Code
      (docstring teal)
      (string amber)
-     (constant cyan)
+     (constant aqua)
      (type green)
+     (property cyan)
      (warning yellow)
      (keyword blue)
      (variable iris)
